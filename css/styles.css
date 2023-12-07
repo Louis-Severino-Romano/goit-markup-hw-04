@@ -285,14 +285,14 @@ body {
 .section-c-item {
   width: calc((100% - 48px) / 3);
 }
-.card-one{
+/* .card-one{
     display: flex;
 width: 232px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 8px;
-}
+} */
 .section-d-header {
   text-align: center;
   margin-bottom: 8px;
