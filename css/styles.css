@@ -224,7 +224,28 @@ fill: var(--fotcolor);
 .customers{
  padding: 120px 0; 
 }
-
+.cust-header{
+font-size: 36px;
+line-height: 1.11;
+color: var(--grey);
+margin-bottom: 72px;
+}
+.cust-list{
+  display: flex;
+  gap: 24px;
+}
+.cust-list-item{
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.cust-list-link{
+  width: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  color: #8e8f99;
+}
 .foter {
   background-color: var(--grey);
   padding: 100px 0;
