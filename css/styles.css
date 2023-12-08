@@ -210,6 +210,13 @@ height: 40px;
   align-items: center;
   justify-content: center;
 }
+.socmed-link:hover{
+  background-color: #404bbf ;
+}
+.socmed-link:focus{
+  background-color: #404bbf;
+}
+
 .foter {
   background-color: var(--grey);
   padding: 100px 0;
