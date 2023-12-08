@@ -220,6 +220,11 @@ height: 40px;
 fill: var(--fotcolor);
 }
 
+/* section5 */
+.customers{
+ padding: 120px 0; 
+}
+
 .foter {
   background-color: var(--grey);
   padding: 100px 0;
