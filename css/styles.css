@@ -216,6 +216,9 @@ height: 40px;
 .socmed-link:focus{
   background-color: #404bbf ;
 }
+.socmed-svg{
+fill: var(--fotcolor);
+}
 
 .foter {
   background-color: var(--grey);
