@@ -4,6 +4,7 @@
   --secbgcolor: #2e2f42;
   --parcolor: #434455;
   --fotcolor: #f4f4fd;
+  --white:#fff;
 }
 * {
   box-sizing: border-box;
@@ -260,6 +261,22 @@ margin-bottom: 72px;
 
 
 /* footer */
+/* hw4 */
+.footer-wrap{
+  margin-right: 120px;
+}
+.footer-socmed{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--white);
+margin-bottom: 16px;
+}
+.footer-socmed-list{
+  display: flex;
+  gap: 16px;
+}
 .foter {
   background-color: var(--grey);
   padding: 100px 0;
