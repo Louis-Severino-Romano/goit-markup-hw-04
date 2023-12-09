@@ -264,6 +264,10 @@ margin-bottom: 72px;
   background-color: var(--grey);
   padding: 100px 0;
 }
+.foter>.container{
+  display:flex;
+  align-items: baseline;
+}
 .span-foter {
   color: #f4f4fd;
 }
