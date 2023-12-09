@@ -273,9 +273,24 @@ letter-spacing: 0.02em;
 color:var(--white);
 margin-bottom: 16px;
 }
+
 .footer-socmed-list{
   display: flex;
   gap: 16px;
+}
+.footer-socmed-listitems{
+  width: 40px;
+}
+.footer-socmed-listitems-link{
+  width: 100%;
+  background-color: var(--blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-socmed-listitems-link:hover, .footer-socmed-listitems-link:focus{
+  background-color: #31d0aa;
 }
 .foter {
   background-color: var(--grey);
