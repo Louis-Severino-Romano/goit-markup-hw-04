@@ -233,6 +233,7 @@ margin-bottom: 72px;
 .cust-list{
   display: flex;
   gap: 24px;
+  list-style: none;
 }
 .cust-list-item{
   width: calc((100% - 120px) / 6);
@@ -248,12 +249,15 @@ margin-bottom: 72px;
   justify-content: center;
   color: #8e8f99;
 }
-.cust-list-link:hover>cust-svg{
-  background-color: #404bbf ;
+.cust-list-link:hover, .cust-list-link:focus{
+  border-color: #404bbf ;
+  color:  #404bbf ;
 }
+
 .cust-svg{
   fill: currentColor;
 }
+
 
 /* footer */
 .foter {
