@@ -295,9 +295,9 @@ margin-bottom: 16px;
 .footer-socmed-listitems-link:hover, .footer-socmed-listitems-link:focus{
   background-color: #31d0aa;
 }
-.foot-socmed-svg{
+/* .foot-socmed-svg{
   fill: var(--fotcolor);
-}
+} */
 .foter {
   background-color: var(--grey);
   padding: 100px 0;
