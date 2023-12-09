@@ -248,6 +248,14 @@ margin-bottom: 72px;
   justify-content: center;
   color: #8e8f99;
 }
+.cust-list-link:hover>cust-svg{
+  background-color: #404bbf ;
+}
+.cust-svg{
+  fill: currentColor;
+}
+
+/* footer */
 .foter {
   background-color: var(--grey);
   padding: 100px 0;
